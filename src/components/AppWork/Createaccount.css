@@ -1,0 +1,222 @@
+.app__appwork_createAnAccount {
+    position: absolute;
+    width: 100vw;
+    height: 90vh;
+    left: 0rem;
+    top: 87rem;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+}
+
+.app__appwork_createAnAccount_laptop {
+    display: contents;
+}
+
+.app__appwork_createAnAccount_smallscreen {
+    display: none;
+}
+
+.app__appwork_createAnAccount h2 {
+    position: absolute;
+    left: 0rem;
+    top: 0rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 3rem;
+    line-height: 2rem;
+    letter-spacing: 0.1px;
+    color: #000000;
+    opacity: 0.8;
+    width: 100%;
+    text-align: center;
+}
+
+
+.app__appwork_createAnAccount-img {
+    position: absolute;
+    height: 60vh;
+    width: 20vw;
+    left: 10rem;
+    top: 13rem;
+    /* filter: drop-shadow(50px 30px 150px rgba(46, 4, 4, 0.15)); */
+}
+
+
+.app__appwork_createAnAccount-img img {
+    width: 18rem;
+    height: 34rem;
+}
+
+
+.app__appwork_createAnAccount-content {
+    position: absolute;
+    width: 56vw;
+    height: 40vh;
+    right: 0rem;
+    top: 20rem;
+}
+
+.app__appwork_createAnAccount-content h5 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    letter-spacing: 0.1px;
+    color: #FA4A0C;
+}
+
+.app__appwork_createAnAccount-content p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.7rem;
+    line-height: 1rem;
+    letter-spacing: 0.2px;
+    color: #737373;
+}
+
+@media screen and (max-width: 1150px) {
+    .app__appwork_createAnAccount-img {
+        position: absolute;
+        width: 28vw;
+        height: 65vh;
+        left: 5rem;
+        top: 12rem;
+    }
+
+    .app__appwork_createAnAccount-img img {
+        width: 15rem;
+        height: 27rem;
+    }
+
+    .app__appwork_createAnAccount-content {
+        position: absolute;
+        width: 50vw;
+        height: 40vh;
+        right: 0rem;
+        top: 15rem;
+    }
+
+    .app__appwork_createAnAccount-content p {
+        line-height: 2rem;
+    }
+
+    #app__appwork_heading-tab {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.5rem;
+        line-height: 1.2rem;
+        letter-spacing: 0.1px;
+        color: #252B42;
+        opacity: 0.8;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    body::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .app__appwork_createAnAccount {
+        width: 100vw;
+        height: 140vh;
+        left: 0vw;
+        top: 74rem;
+    }
+
+
+    .app__appwork_createAnAccount_laptop {
+        display: none;
+    }
+
+    .app__appwork_createAnAccount_smallscreen {
+        display: contents;
+    }
+
+    .app__appwork_createAnAccount_smallscreen h5 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 36px;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: #FA4A0C;
+    }
+
+    .app__appwork_createAnAccount_smallscreen h3 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 15px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #252B42;
+    }
+
+    .app__appwork_createAnAccount_smallscreen p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 15px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #737373;
+    }
+
+    .app__appwork_createAnAccount h2 {
+        position: absolute;
+        left: 0rem;
+        top: 0rem;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.4rem;
+        line-height: 0rem;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: #000000;
+        width: 100vw;
+    }
+
+    .app__appwork_createAnAccount-content {
+        position: absolute;
+        width: 100vw;
+        left: 0rem;
+        top: 6rem;
+        text-align: center;
+    }
+
+    .app__appwork_createAnAccount-img {
+        position: absolute;
+        width: 100vw;
+        height: 35vh;
+        left: 0rem;
+        top: 40rem;
+        display: flex;
+        justify-content: center;
+    }
+
+    .app__appwork_createAnAccount img {
+        width: 15rem;
+        height: 27rem;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    body::-webkit-scrollbar {
+        display: none;
+    }
+}

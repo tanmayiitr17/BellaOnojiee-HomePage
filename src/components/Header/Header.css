@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap');
+
+.app__header {
+    position: absolute;
+    width: 100vw;
+    height: 80vh;
+    left: 0rem;
+    top: 8rem;
+    background: url('../../assets/home.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.app__home-content_laptop {
+    display: contents;
+}
+
+.app__header_home-button {
+    padding: 1rem 1rem;
+    width: 15rem;
+    height: 5rem;
+    box-shadow: 0px 10px 30px rgba(183, 50, 39, 0.2);
+    border-radius: 30px;
+    margin: 2rem 1rem;
+    border-style: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.4rem;
+    letter-spacing: 0.1px;
+    color: #FFFFFF;
+}
+
+.app__header_home-phone {
+    position: relative;
+    left: -6rem;
+    top: -6rem;
+    height: 74vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.app__header_home-phone img {
+    height: 50rem;
+    width: 42rem;
+}
+
+.app__header_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+}
+
+.app__header_home-line {
+    position: absolute;
+    width: 80vw;
+    height: 0px;
+    margin: 0rem 5rem;
+    top: 75rem;
+    border: 3px solid #E4E4E4;
+}
+
+.app__home-content_smallscreen {
+    display: none;
+}
+
+@media screen and (max-width: 1150px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    body::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .app__header {
+        width: 100vw;
+        height: 100vh;
+        background: #FAFAFA;
+    }
+
+    .flex__center_column {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0rem 0rem;
+    }
+
+    .app__home-content_laptop {
+        display: none;
+    }
+
+    .app__home-content_smallscreen {
+        display: contents;
+    }
+
+    .app__home-content_smallscreen h5 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 0px;
+        text-align: center;
+        letter-spacing: 0.1px;
+        color: #737373;
+    }
+
+    .app__home-content_smallscreen h1 {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 1.98rem;
+        line-height: 0px;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #252B42;
+    }
+
+    .app__home-content_smallscreen p {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 0rem;
+        text-align: center;
+        letter-spacing: 0.2px;
+        color: #737373;
+    }
+
+    .app__header_home-content {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin: 0rem 0rem;
+    }
+
+    .app__header_button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button_2 {
+        border: 2px solid orangered;
+        margin: -20px 45px;
+        color: orangered;
+        background: white;
+    }
+
+    .app__header_home-phone {
+        width: 100vw;
+        height: 50vh;
+        position: absolute;
+        left: 0rem;
+        top: 22rem;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .app__header_home-phone img {
+        position: relative;
+        left: -2rem;
+        top: 5rem;
+        width: 24rem;
+        height: 35rem;
+    }
+
+    .app__header_home-line {
+        position: absolute;
+        width: 98vw;
+        height: 0rem;
+        left: 0rem;
+        top: 71rem;
+        z-index: 1;
+        border: 3px solid #E4E4E4;
+        margin: 0rem 0rem;
+    }
+
+    body {
+        overflow-x: hidden;
+    }
+
+    body::-webkit-scrollbar {
+        display: none;
+    }
+}
